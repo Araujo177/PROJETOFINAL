@@ -1,0 +1,27 @@
+footer img{
+    width: 50px;
+    height:50px
+ }
+
+ footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+ }
+ footer div {
+    display: inline;
+    float: right;
+    margin-right: 10px;
+  }
+  
+  footer img {
+     width: 50px;
+      height:50px;
+      border-radius: 10px;
+      justify-content: space-around;
+      display: flex;
+  }
+
+  .center{
+    margin: 12% 0%;
+  }

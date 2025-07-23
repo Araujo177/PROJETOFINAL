@@ -1,0 +1,120 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+.fordform {
+    display: block;
+    width: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    height: 26px;
+    margin: 8px;
+    font-size: 13px;
+    padding: 5px;
+}
+body nav{
+  color: white;
+}
+
+select.fordform {
+    width: 310px;
+    height: 36px;
+    color: #807d7d;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+select:focus-visible {
+    outline: none;
+}
+
+main div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.forms {
+    display: block;
+    text-align: center;
+}
+.consentimento {
+  width: 320px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  padding: 16px;
+
+ margin-top: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.consentimento label {
+  display: block;
+  margin-top: 10px;
+}
+
+.consentimento a {
+  color: #868f99;
+  text-decoration: underline;
+}
+ 
+h2 {
+    text-align: left;
+    font-weight: 600;
+}
+
+#enviar {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 250px;
+}
+
+#enviar:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+
+button {
+    width: 200px;
+    height: 35px;
+    margin-right: 8px;
+    float: right;
+}
+
+.titulo {
+    margin-left: 8px;
+}
+
+footer {
+  background: #000000;
+  padding: 5px;
+}
+
+footer div {
+  display: inline;
+  float: right;
+  margin-right: 10px;
+}
+
+footer img {
+   width: 50px;
+    height:50px;
+    border-radius: 10px;
+    justify-content: space-around;
+    display: flex;
+}

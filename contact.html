@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projetoS.B </title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li>
+                <a href="projeto S.B.html"></index>Sobre o Site</a>
+            </li> 
+              <li>
+                <a href="saibamais.html">Saiba Mais</a> </a>
+            </li> 
+              <li>
+                <a href="contact.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="forms">
+            <div>
+                <img src="img/imagem escola sabatina.jpg">
+            </div>
+            <div>
+                <h2 class="titulo">Sobre Você</h2>
+            <form onsubmit="Post(this);">
+                <input type="text" name="nome" placeholder="NOME*" class="fordform" required>
+                <input type="text" name="email" placeholder="E-MAIL*" class="fordform" required>
+                <input type="text" name="cpf" placeholder="CPF*" class="fordform" required>
+                <input type="text" name="sobrenome" placeholder="SOBRENOME*" class="fordform" required>
+                <input type="text" name="telefone" placeholder="TELEFONE*" class="fordform" required>
+                <select name="contato" class="fordform" required>
+                    <option selected>COMO DESEJA SER CONTATADO</option>
+                    <option>TELEFONE</option>
+                    <option>E-MAIL</option>
+                </select>
+                <div class="consentimento">
+                <p>Os dados serão mantidos em nossa base de dados, só enquanto for desejado por você. A qualquer momento, será possível editar ou remover tais dados.</p>
+                
+                <label>
+                <input type="checkbox" id="checkbox1">
+                Sim. Li e concordo com os <a href="https://www.ford.com.br/politica-de-privacidade/" target="_blank">Termos e Condições</a>.
+                </label>
+
+                <label>
+                 <input type="checkbox" id="checkbox2">
+                Sim. Também quero receber descontos e novidades.
+                </label>
+             
+                <button id="enviar" disabled>Enviar</button>
+                <script>
+            const checkbox1 = document.getElementById("checkbox1");
+            const botao = document.getElementById("enviar");
+
+            checkbox1.addEventListener("change", () => {
+                botao.disabled = !checkbox1.checked;
+            });
+            </script>
+            </div><br><br>
+
+            </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        
+        <a href="https://www.facebook.com/groups/145714558899030/" target="_blank">
+            <img src="facebook.png"></img>
+            <p>Facebook</p>
+        </a>
+
+        <a href="https://www.linkedin.com/company/adventistasbrasil/" target="_blank">
+            <img src="linkedin.png"></img>
+            <p>Linkedin</p>
+        </a>
+            
+            
+        <a href="https://gruposwhats.app/group/610566" target="_blank"
+                <img src="whatsap.png"></img>
+                <p>Whatsap</p>
+            </a>
+        <a href="https://www.youtube.com/@Licao-org/playlists" target="_blank">
+        <img src="youtube.png"></img>
+        <p>youtube</p>
+        </a>
+       </a>
+        <a href="https://www.instagram.com/escolasabatinadsa/"  target="_blank">
+            <img src="./instagramlogo2.png">
+            <p>Instagram</p>
+        <a>
+            
+
+   </footer>
+</body>
+</html>
